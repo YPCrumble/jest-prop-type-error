@@ -7,3 +7,5 @@ console.error = (message, ...args) => {
 
   error.apply(console, [message, ...args]);
 };
+
+module.exports = console.error;
